@@ -11,4 +11,8 @@ public class HelloController {
 		return "Greetings from Spring Boot + Tanzu!";
 	}
 
+	@RequestMapping("/qstring")
+	public String querystring() {
+		return "Greetings from Spring Boot + Tanzu - Praveen!";
+	}
 }
