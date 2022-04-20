@@ -13,6 +13,6 @@ public class HelloController {
 
 	@RequestMapping("/qstring")
 	public String querystring() {
-		return "Greetings from Spring Boot + Tanzu - Praveen!";
+		return "Greetings from Spring  + Tanzu - Praveen!";
 	}
 }
